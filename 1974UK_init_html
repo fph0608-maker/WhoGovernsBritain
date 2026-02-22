@@ -28,7 +28,7 @@ campaignTrail_temp.election_json = [
         "model": "campaign_trail.election",
         "pk": 4,
         "fields": {
-            "year": 1974
+            "year": 1974,
             "summary": "<u> <p style=\"font-family: oblique; font-size: 0.9rem;\"><strong>In 1974, Britain stands at a crossroads of insurmountable magnitude.</u></p></strong> <p>Prime Minister 'Ted' Heath is hoping to remain in No.10 after a turbulent first premiership. Harold Wilson is hoping to return Labour to power, but he is not the same man as he was a decade ago and neither his his party. And Jeremy Thorpe, leading the Liberals, sees an oppurtunity to return to national prominence on the back of discontent with the two major parties.</p><p> This election has the potential to reshape the fabric of British political life as it's been known, There's a lot to be done. For heaven's sake, let's get on with it</p>",
             "image_url": "https://i.imgur.com/XDhKjNX.gif",
             "winning_electoral_vote_number": 270,
