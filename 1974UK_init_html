@@ -37,7 +37,7 @@ campaignTrail_temp.election_json = [
             "has_visits": 1,
             "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
             "creator": "Trystant",
-            "display_year": "1976_GoodForMe",
+            "display_year": "1974_WhoGovernsBritain",
 	        "site_description":"<p>Republican John Lindsay is seeking a second term after a presidency full of ups and downs and a divided party. Henry M. Jackson hopes to channel the energy of the Democrats’ 1974 midterm victory to return the party to the White House, but the shadow of Robert Kennedy still hangs over him. And Ronald Reagan, once a political “has-been,” is leading an independent bid with the backing of the conservative movement, and a real shot at power.</p><p>In this broken, strange, fast-moving world, can Lindsay hang on to his job a while longer, or is this the end of Republican liberalism once and for all?</p>"
         }
     }
