@@ -45,7 +45,7 @@ campaignTrail_temp.election_json = [
 
 campaignTrail_temp.modBoxTheme = {
     "header_color": "#4382b3",
-  "header_image_url": "https://i.imgur.com/tROAzVj.jpeg",
+  "header_image_url": "https://files.catbox.moe/fi895k.png",
     "header_text_color": "#ffffff",
     "description_text_color": "#000000",
     "description_background_color": "#96c2e3",
@@ -333,7 +333,7 @@ jet_data = {
     "windowColor": "#376481",
     "containerColor": "#411512",
     "innerWindowColor": "#beae70",
-    "bannerImageUrl": "https://i.imgur.com/RskciI7.jpeg",
+    "bannerImageUrl": "https://files.catbox.moe/fi895k.png",
     "backgroundImageUrl": "https://i.imgur.com/WtAhw2T.jpeg",
     "endingTextColor": "#000000",
     "customQuote": "\"das eine Mal als Tragödie, das andere Mal als Farce\""
