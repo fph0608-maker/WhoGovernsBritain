@@ -322,9 +322,9 @@ campaignTrail_temp.opponents_weighted_json = [
 campaignTrail_temp.temp_election_list = [
     {
         "id": 4,
-        "year": 1976,
+        "year": 1974,
         "is_premium": 0,
-        "display_year": "1976_GoodForMe"
+        "display_year": "1974_WGB"
     }
 ]
 
@@ -355,7 +355,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#411512";
 
-document.getElementById("header").src = "https://i.imgur.com/RskciI7.jpeg";
+document.getElementById("header").src = "https://files.catbox.moe/fi895k.png";
 
 document.body.background = "https://i.imgur.com/WtAhw2T.jpeg";
 
