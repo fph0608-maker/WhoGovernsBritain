@@ -345,7 +345,7 @@ jet_data = {
 corrr = '\n              <h2>𝔡𝔞𝔰 𝔢𝔦𝔫𝔢 𝔐𝔞𝔩 𝔞𝔩𝔰 𝔗𝔯𝔞𝔤𝔬𝔡𝔦𝔢, 𝔡𝔞𝔰 𝔞𝔫𝔡𝔢𝔯𝔢 𝔐𝔞𝔩 𝔞𝔩𝔰 𝔉𝔞𝔯𝔠𝔢</h2> \n            ';
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#242121";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#376481";
 
