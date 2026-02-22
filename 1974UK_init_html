@@ -347,7 +347,7 @@ corrr = '\n              <h2>𝔡𝔞𝔰 𝔢𝔦𝔫𝔢 𝔐𝔞𝔩 𝔞𝔩
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#242121";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#376481";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#050505";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
