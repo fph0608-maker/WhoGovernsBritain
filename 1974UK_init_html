@@ -293,7 +293,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "Trystant"
+campaignTrail_temp.credits = "InformationEven"
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -332,7 +332,7 @@ jet_data = {
     "headerColor": "#700016",
     "windowColor": "#376481",
     "containerColor": "#411512",
-    "innerWindowColor": "#beae70",
+    "innerWindowColor": "#f3eed9",
     "bannerImageUrl": "https://files.catbox.moe/fi895k.png",
     "backgroundImageUrl": "https://flashbak.com/wp-content/uploads/2016/12/London-1970-32.jpg ",
     "endingTextColor": "#000000",
@@ -359,7 +359,7 @@ document.getElementById("header").src = "https://files.catbox.moe/fi895k.png";
 
 document.body.background = "https://flashbak.com/wp-content/uploads/2016/12/London-1970-32.jpg ";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#beae70!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#f3eed9!important;}</style>";
 
 $("#game_window")[0].style.borderColor = "#948f7f";
 
