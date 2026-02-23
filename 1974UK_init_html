@@ -1,4 +1,123 @@
+function removeCandidateSummary() {
+try {
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+} catch {}
+}
+window.setInterval(removeCandidateSummary,200)
+
+function updateCandidateForm() {
+  formobserver.disconnect();
+  const heading = document.querySelector("#candidate_form form h3");
+
+  if (heading) {
+    heading.textContent = "Please select your party leader:";
+  }
+  formobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+var formobserver = new MutationObserver(updateCandidateForm);
+formobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+function removeRunningMateSummary() {
+try {
+  const running_mateSummary = document.querySelector("#running_mate_summary");
+  if (running_mateSummary) {
+    const ulList = running_mateSummary.querySelector("ul");
+    if (ulList) {
+      running_mateSummary.removeChild(ulList);
+    }
+  }
+} catch {}
+}
+window.setInterval(removeCandidateSummary,200)
+
+function updateRunningMateForm() {
+  runformobserver.disconnect();
+  const heading = document.querySelector("#running_mate_form form h3");
+
+if (heading) {
+    heading.textContent = "Please select your party:";
+  }
+  runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+}
+
+var runformobserver = new MutationObserver(updateRunningMateForm);
+runformobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+function removeCandidateSummary() {
+   sumobserver.disconnect();
+  const candidateSummary = document.querySelector("#candidate_summary");
+  if (candidateSummary) {
+    const ulList = candidateSummary.querySelector("ul");
+    if (ulList) {
+      candidateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+var sumobserver = new MutationObserver(removeRunningMateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+
+function removeRunningMateSummary() {
+   sumobserver.disconnect();
+  const running_mateSummary = document.querySelector("#running_mate_summary");
+  if (running_mateSummary) {
+    const ulList = running_mateSummary.querySelector("ul");
+    if (ulList) {
+      running_mateSummary.removeChild(ulList);
+    }
+  }
+  sumobserver.observe(document.body, {childList: true,subtree: true});
+}
+
+var sumobserver = new MutationObserver(removeRunningMateSummary);
+sumobserver.observe(document.body, {childList: true,subtree: true});
+
+function updateHeader() {
+  var gameHeader = document.getElementsByClassName("game_header")[0];
+
+if (gameHeader.getAttribute("id") !== "modifiedHeader") {
+    gameHeader.innerHTML = corrr;
+    gameHeader.style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+    gameHeader.setAttribute("id", "modifiedHeader");
+  }
+}
+window.setInterval(removeRunningMateSummary,10)
+  
+let z = new MutationObserver((mutationsList, observer) => {
+    let runningmateSummary = document.querySelector("#runningmate_summary");
+    if (runningmateSummary && runningmateSummary.children[0].children[2].innerHTML != runningmateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Constituency")) {
+        runningmateSummary.children[0].children[2].innerHTML = runningmateSummary.children[0].children[2].innerHTML.replaceAll("Home State", "Constituency");
+    }
+});
+var headerobserver = new MutationObserver(updateHeader);
+headerobserver.observe(document.documentElement, { childList: true, subtree: true });
+
+
+RecReading=true
+
+e = campaignTrail_temp;
+
+
+const introTitle = document.querySelector("#inner_window_1 h3");
+  if (introTitle) {
+	introTitle.textContent = "Do you have what it takes to win a General Election?";
+  }
+
+document.getElementById("inner_window_1").children[1].innerHTML = `<li>For the first time ever, the Liberal Democrats will reside on the Government benches in Parliament.</li><li>You, Mr Nick Clegg, will answer questions about your policy, platform and positions, and also about your campaign strategy.</li><li>The answers will affect your popularity for better or worse, nationally, in individual regions, and with your coalition partner: the Conservatives.</li><li>Walk the fine line between appealing to your base and maximising your share of the votes.</li><li>Will you keep the coalition government all the way until the election?</li><li>Or will powers external and domestic bring it all down?</li><li>Please enjoy, and good luck, in <i>Clegg</i>.`;
+document.styleSheets[0].insertRule(".inner_window_w_desc{ margin:1em 0 0 0.5em !important;padding-top: 0.5em !important;}", 0);
+document.styleSheets[0].insertRule(".inner_window_question{ margin:1em 0 .7em 0.5em !important;padding-top: 0.3em !important;}", 0);
+document.styleSheets[0].insertRule("#main_content_area { height:82% !important;}", 0);
 campaignTrail_temp.global_parameter_json = [
+
+
     {
         "model": "campaign_trail.global_parameter",
         "pk": 1,
