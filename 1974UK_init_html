@@ -334,7 +334,7 @@ jet_data = {
     "containerColor": "#411512",
     "innerWindowColor": "#beae70",
     "bannerImageUrl": "https://files.catbox.moe/fi895k.png",
-    "backgroundImageUrl": "https://i.imgur.com/WtAhw2T.jpeg",
+    "backgroundImageUrl": "https://flashbak.com/wp-content/uploads/2016/12/London-1970-32.jpg ",
     "endingTextColor": "#000000",
     "customQuote": "\"With your will, we shall go on and finish the job\""
 }
@@ -357,7 +357,7 @@ $(".container")[0].style.backgroundColor = "#12100f";
 
 document.getElementById("header").src = "https://files.catbox.moe/fi895k.png";
 
-document.body.background = "https://i.imgur.com/WtAhw2T.jpeg";
+document.body.background = "https://flashbak.com/wp-content/uploads/2016/12/London-1970-32.jpg ";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#beae70!important;}</style>";
 
