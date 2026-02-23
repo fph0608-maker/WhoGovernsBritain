@@ -253,49 +253,9 @@ campaignTrail_temp.candidate_json = [
             "description_as_running_mate": "<li><b>Name: Conservative Party</b></li><li><b>Role: HM Government</b></li><li><b>Seats: 330</b></li><p> Every time the GOP was about to leave you in the lurch, there was Bob Dole. When Thurmond threatened to switch sides again and take half the party with him, there was Bob Dole. When you tried to create a Department of the Arts and Barry Goldwater had a heart attack, there was Bob Dole. And he doesn’t seem tired. The establishment figure <i>par excellence</i>, Dole appears to be the only link between the Republican base and you—the voice whispering the oil tycoons’ interests when you get close to a ghetto.</p><p>But Dole is tired, and the world is tired of him. Set against Reagan’s showmanship, it doesn’t look like the old Midwesterner can persuade the silent majority to grant you the slightest trust. Changing your vice president may be risky and a sign of weakness, but in this world,<strong> <i>you either change or you die.</p></strong>",
             "color_hex": "#970016",
             "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://files.catbox.moe/q3y68n.png",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1005,
-        "fields": {
-            "first_name": "Richard",
-            "last_name": "Nixon",
-            "election": 4,
-            "party": "Republican Party",
-            "state": "California",
-            "priority": 6,
-            "description": "<p><strong>General William C. Westmoreland</strong> – war hero, strategist, and",
-            "color_hex": "#7A3E00",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/wAFIstb.jpeg",
-            "description_as_running_mate": "<p>It was truly comical. The eternal loser, consumed by an endless hatred of Washington’s great dynasties, had to beg like a dog for a spot in the new administration. His campaign appearances were sporadic, pitiful, scorned. Richard Nixon is a hateful, repugnant man, and his position as National Security Advisor has done nothing to soften that perception in Lindsay’s mind.</p><p>\n\nBut he may be an asset. Nixon would play the same role Dole did four years earlier, and might even bring back some disillusioned conservatives. His appeal to the silent majority would steal voters from Jackson in the North and from Reagan in the South. Taking him out of foreign policy would let Mr. Kissinger implement all his ideas without interruptions from this farm boy, and it would sate his ego enough to keep him on Lindsay’s side.<br> The question is, John: <strong><i>are you willing to share a presidential ticket with Richard Nixon?</strong></i></p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1006,
-        "fields": {
-            "first_name": "Edward",
-            "last_name": "Brooke",
-            "election": 4,
-            "party": "Republican Party",
-            "state": "Massachussets",
-            "priority": 7,
-            "description": "<p><strong>George H. W. Bush</strong> – youthful Congressman, Navy veteran, and",
-            "color_hex": "#005A8E",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/Ov01g4W.jpeg",
-            "description_as_running_mate": "<p style=\"text-shadow:0.06em 0.06em 0.12em red;\">No. No. Not a chance. Don’t even think about it, John.</p><p style=\"text-shadow:0.06em 0.06em 0.12em blue;\">It could work. Look at it this way: every racist in this country is going to vote for Reagan. If any are left over, they’ll go to Jackson. Right now we’re at, what, 30% of the Black vote? Imagine if we could push it to 50%. To 70%! It’s perfect. Brooke is perfect. We could peel off some Democratic progressives—the ones who criticize Jackson when he opposes busing. And look at him. He’s a good politician. He’s charismatic. Everybody loves him.</p><p style=\"text-shadow:0.06em 0.06em 0.12em red;\">He’s Black.</p><p style=\"text-shadow:0.06em 0.06em 0.12em red;\">—Sigh— Do whatever you want, but don’t say I didn’t warn you.</p>",
-            "candidate_score": 0,
+            "is_active": 1,
+            "image_url": "https://files.catbox.moe/vw9z8d.png",
+            "candidate_score": 1,
             "running_mate": true
         }
     },
@@ -313,7 +273,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#005A8E",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/gBHmPoM.jpeg[/img]",
+            "image_url": "https://files.catbox.moe/s7pz41.png",
             "description_as_running_mate": "<p><strong>George H. W. Bush</strong> – Geor",
             "candidate_score": 0,
             "running_mate": true
@@ -333,28 +293,8 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#005A8E",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://i.imgur.com/wlQCDCV.jpeg",
+            "image_url": "https://files.catbox.moe/gllmde.png",
             "description_as_running_mate": "<p><strong>George H. W. Bush</strong> – George Bush –",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 1009,
-        "fields": {
-            "first_name": "Phil",
-            "last_name": "Ochs",
-            "election": 4,
-            "party": "Independent",
-            "state": "Ohio",
-            "priority": 10,
-            "description": "<p><strong>George H. W. Bush</strong> – youthful Congressman, Navy veteran, and",
-            "color_hex": "#005A8E",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/QwyKPDD.jpeg",
-            "description_as_running_mate": "<p><strong>George H. W. Bush</strong> – George Bush – ",
             "candidate_score": 0,
             "running_mate": true
         }
