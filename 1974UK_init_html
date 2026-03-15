@@ -388,7 +388,7 @@ campaignTrail_temp.temp_election_list = [
 ]
 
 jet_data = {
-    "headerColor": "#700016",
+    "headerColor": "#797985",
     "windowColor": "#376481",
     "containerColor": "#411512",
     "innerWindowColor": "#f3eed9",
@@ -404,7 +404,7 @@ jet_data = {
 corrr = '\n              <h2>With your will, we shall go on and finish the job</h2> \n            ';
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#242121";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#797985";
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#050505";
 
@@ -420,11 +420,11 @@ document.body.background = "https://files.catbox.moe/pnb9mq.png ";
 
 document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#f3eed9!important;}</style>";
 
-$("#game_window")[0].style.borderColor = "#948f7f";
+$("#game_window")[0].style.borderColor = "#a39b84";
 
-$(".container")[0].style.borderColor = "#948f7f";
+$(".container")[0].style.borderColor = "#a39b84";
 
-$(".footer")[0].style.borderColor = "#948f7f";
+$(".footer")[0].style.borderColor = "#a39b84";
 
 $("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/g2c1eh.png)";
 
