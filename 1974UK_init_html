@@ -412,7 +412,7 @@ document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_st
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#12100f";
+$(".container")[0].style.backgroundColor = "#83838f";
 
 document.getElementById("header").src = "https://files.catbox.moe/6ar4yv.png";
 
