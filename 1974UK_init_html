@@ -466,7 +466,7 @@ $(".container")[0].style.borderColor = "#a39b84";
 
 $(".footer")[0].style.borderColor = "#a39b84";
 
-$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/g2c1eh.png)";
+$("#game_window")[0].style.backgroundImage = "url(https://files.catbox.moe/fepukx.png)";
 
 //#endcode
 
