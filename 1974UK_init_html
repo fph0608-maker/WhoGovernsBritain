@@ -42,7 +42,7 @@ function updateRunningMateForm() {
   const heading = document.querySelector("#running_mate_form form h3");
 
 if (heading) {
-    heading.textContent = "Please select your party:";
+    heading.textContent = "Please select your chief advisor:";
   }
   runformobserver.observe(document.documentElement, { childList: true, subtree: true });
 }
@@ -254,7 +254,7 @@ campaignTrail_temp.candidate_json = [
             "color_hex": "#970016",
             "secondary_color_hex": null,
             "is_active": 0,
-            "image_url": "https://files.catbox.moe/q3y68n.png",
+            "image_url": "https://files.catbox.moe/98q12p.png",
             "candidate_score": 0,
             "running_mate": true
         }
