@@ -1,4 +1,4 @@
-//Code2LindsayDole
+//Code2HeathWhitelaw
 
 $("#game_window")[0].style.backgroundColor = "#b8b8b8"
 const customStyling = document.createElement("style");
