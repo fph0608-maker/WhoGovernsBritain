@@ -1,0 +1,590 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 28,
+        "fields": {
+            "year": 1980,
+            "summary": "<p>The 1980 election is shaping up to be one to remember, with a host of domestic issues such as the recession, and abroad with the ongoing hostage crisis</p><p><b>John Connally</b> enters the arena with the goal of convincing the American people of his ability to lead the nation to stability and dissuade concerns over his public image as somewhat of a turncoat.</p><p><b>Jimmy Carter</b> enters the arena with a divided Democratic Party, with the goal of keeping his flock together and rising above the myriad of crisises to secure a second term in the White House.",
+            "image_url": "https://imgur.com/LHhwgk4.png",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://thecampaigntrail.net/static/images/1980/eprph5t.jpeg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">1980 Campaign</h4>Rick Perlstein - <a href=\"https://www.amazon.com/Reaganland-Americas-Right-Turn-1976-1980/dp/1476793050\" target=\"_blank\">Reaganland</a><br>Jack Germond & Jules Witcover - <a href=\"https://archive.org/details/bluesmokemirrors00germ/page/n7/mode/2up\" target=\"_blank\">Blue Smoke and Mirrors</a><br>Andrew Busch - <a href=\"https://archive.org/details/reagansvictorypr0000busc\" target=\"_blank\">Reagan's Victory</a><br>Elizabeth Drew - <a href=\"https://www.amazon.com/Portrait-Election-1980-Presidential-Campaign/dp/0671430343\" target=\"_blank\">Portrait of an Election</a><br>NBC Nightly News Campaign 1980 - <a href=\"https://youtu.be/kgwjOM3gYWA\" target=\"_blank\">July </a><a href=\"https://youtu.be/RWPNHT1ecvE\" target=\"_blank\"> August </a><a href=\"https://youtu.be/VTOIA_zLHsY\" target=\"_blank\"> September </a></a><a href=\"https://youtu.be/hU5OYQkUFvs\" target=\"_blank\"> October </a><br><h4>Ronald Reagan</h4>Lou Cannon - <a href=\"https://www.amazon.com/Ronald-Reagan-Politics-Lou-Cannon/dp/1586482637\" target=\"_blank\">Ronald Reagan: A Life in Politics</a><br>Max Boot - <a href=\"https://www.amazon.com/Reagan-Life-Legend-Max-Boot/dp/0871409445\" target=\"_blank\">Reagan: His Life and Legend</a><br><h4>Jimmy Carter</h4>Jonathan Alter - <a href=\"https://www.amazon.com/His-Very-Best-Jimmy-Carter/dp/1501125486\" target=\"_blank\" >His Very Best: Jimmy Carter, A Life</a><br>Kai Bird - <a href=\"https://www.amazon.com/Outlier-Unfinished-Presidency-Jimmy-Carter/dp/0451495233\" target=\"_blank\" >The Outlier</a><h4>John Anderson</h4>Frank Smallwood - <a href=\"https://archive.org/details/othercandidatest00smal\" target=\"_blank\">The Other Candidates</a><br>Mark Bisnow - <a href=\"https://archive.org/details/diaryofdarkhorse0000bisn/page/n5/mode/2up\" target=\"_blank\">Diary of a Dark Horse</a>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "https://thecampaigntrail.net/static/images/1980/eGqF6QQ.png",
+            "creator": "CTA",
+            "display_year": "1980 Connally",
+            "is_historical": true,
+            "recommended_reading_enabled": false,
+            "site_description": ""
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 28,
+        "year": 1980,
+        "is_premium": 0,
+        "display_year": "1980 Connally"
+    }
+];
+
+campaignTrail_temp.credits = "InformationEven1211";
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+];
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 420,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Connally",
+            "election": 28,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>John Connally's political life has been defined by him waiting in the wings, lifting up other men of history in their time of need, Johnson, Nixon, he even helped get Ike into the game. In 1980, however, he's chosen to take the spotlight for himself, America needs someone to bring it back from the brink, and to Connally, there's no-one better suited to the task than him.</p><p>The battle for the nomination alone has been an uphill battle, taking down Reagan is certain to leave some harsh wounds within the party, and many Republican's still don't fully think of him as one of their own, but he's made it to the helm, and only a stable vessel can carry him to victory against Jimmy Carter.",
+            "color_hex": "#b51a00",
+            "secondary_color_hex": "#ff565a",
+            "is_active": 1,
+            "image_url": "https://imgur.com/iG1JMjt.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1980 election!</h3><p>With your victory, you have ushered in a new era of American politics, realigning the country around your conservative principles and shattering the old Democratic coalition. For the first time since the 1920's, the dominant party is the GOP. Now your job is to make it last.</p><p>On the domestic front, your top priority will be getting the country out of the recession. Whether your massive tax and spending cuts will make the difference is unclear. The global situation is even more tenuous. You face a resurgent Soviet threat in Eastern Europe and the Middle East, and of course, the 52 American hostages still remaining in Iran. Will they still be there when you take the Oath of Office?</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1980 election.</h3><p>After such a euphoric convention, this loss is a devastating one for the conservative movement to take. The finger-pointing is sure to drag on for months, perhaps years. With double-digit inflation and Americans languishing in Iran, everyone thought you were a sure thing.</p><p>At your advanced age, this is an end to a long and unsuccessful entry into politics. With your mixed record as California governor, Gerald Ford's chief critic before his defeat in 1976, and now the man who lost to Jimmy Carter, your legacy is likely to be nil to all but the most ardent <em>National Review</em> readers. Perhaps you can go back to Hollywood?</p>",
+            "no_electoral_majority_message": "<h3>Wow! No candidate holds a majority in the electoral college.</h3><p>Anderson's third party candidacy has succeeded beyond his own supporters' wildest expectations. What happens next is anyone's guess.</p><p>Anderson does not hold enough of an electoral bloc in Congress to become president himself, but will the institution which Carter has routinely denigrated for four years elevate him for another term? Or will the Democratic majority elect a radical right-winger? Either way, get used to the phrase “President Tip O’Neill.”</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.666,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 421,
+        "fields": {
+            "first_name": "Jimmy",
+            "last_name": "Carter",
+            "election": 28,
+            "party": "Democrat",
+            "state": "Georgia",
+            "priority": 2,
+            "description": "<p>It seems like a lifetime ago when Jimmy Carter entered the White House with his approval rating in the stratosphere. After Watergate and Vietnam, Americans were ready for an end to the divisions and national traumas of the last decade, but all they got was more of the same. Plagued by economic downturns and a Cold War turning hot, Carter's reelection prospects look bleak.</p><p>A brutal intra-party fight has hardly helped the Democrats' odds this November. Ted Kennedy's campaign may have gone down in flames, but he remains an icon to millions of voters Jimmy Carter must win over if he is to have any hope of staying in the White House another four years.</p>",
+            "color_hex": "#003997",
+            "secondary_color_hex": "#6998e3",
+            "is_active": 0,
+            "image_url": "https://imgur.com/PrV0ap2.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1980 election!</h3><p>Your reelection appeared hopeless for most of the campaign, but it appears enough voters felt they were better off with the devil they know.</p><p>Of course, now you have to actually act on the ambitious domestic programs you promised to alleviate the ongoing recession. That will be easier said than done with a Congress tilting heavily to the right.</p>",
+            "electoral_loss_message": "<h3>Sorry, you have lost the 1980 election.</h3><p>In 1976 you promised to never tell a lie, so you can't say it doesn't hurt. But after the crisis of confidence this nation has suffered in the 1970s, it's not surprising that you have become the fifth straight president who failed to serve two full terms.</p><p>Reagan's victory appears to be a realigning moment for the two major parties, both of which are now lurching rightward. In the meantime, you'll have to busy yourself with ongoing hostage negotiations before you leave office. After that, who knows? You'll probably just return to Plains and open a stuffy library.</p>",
+            "no_electoral_majority_message": "<h3>Oh no! No candidate holds a majority in the electoral college.</h3><p>You had been dreading this outcome all along. It seems Anderson was a far greater force to be reckoned with than anyone thought.</p><p>After you've alienated so many of the same congressional liberals now flocking to Anderson, it seems unlikely you'll be able to pull through. But who knows? You've made it this far...</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 0.7,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 422,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Anderson",
+            "election": 28,
+            "party": "National Unity Party",
+            "state": "Illinois",
+            "priority": 3,
+            "description": "<p>Illinois Congressman John Anderson runs as a third-party candidate, hoping to cobble together enough Kennedy Democrats and moderate Republicans to break through the noise in November. While he is still an unknown to many, if Anderson's polls remain high—some surveys have him above 30%—his record in the House will surely be called into question.</p><p>Anderson's goal of winning outright is unrealistic, if not impossible. He will have to deflect accusations of acting as a \"spoiler\" for Reagan and the Republicans, or Carter and the Democrats, depending on who's talking. But there is an outside shot that Anderson may deadlock the race and throw it to the House, in which case, all bets are off.</p>",
+            "color_hex": "#8c8c88",
+            "secondary_color_hex": "#A4A4A4",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/tQsvbkI.png",
+            "electoral_victory_message": "<h3>Wow! You have won the 1968 election in a shocker!</h3><p>Dixie forever! Even with the Long Hot Summer of 1967, nobody guessed that you could do well enough in the Northern states to win the election outright. You have instantly become most polarizing President-elect since Abraham Lincoln.</p>",
+            "electoral_loss_message": "<h3>Sorry, you did not prevent an electoral college majority.</h3><p>You put in a good effort, but your dream of brokering an end to desegregation will not come to fruition in 1968. No winning candidate will negotiate that point with you unless they absolutely have no choice.</p><p>The best you can do for now is continue to sound the call for a return to sanity in American politics. Perhaps if the riots and discord continue, you will have a better chance of making your voice heard in 1972.</p>",
+            "no_electoral_majority_message": "<h3>Congratulations! You have deadlocked the electoral college with your votes in the South.</h3><p>In a close election, your electoral votes in the South have prevented either candidate from winning a majority. Get ready to put the squeeze on Humphrey and Nixon.</p><p>Of course, you still have to deal with the possibility that Humphrey and Nixon dislike you so much that they will simply strike a deal with each other. Whatever happens, it's sure to be interesting.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 423,
+        "fields": {
+            "first_name": "Phil",
+            "last_name": "Crane",
+            "election": 28,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 29,
+            "description": "n/a",
+            "color_hex": "#b51a00",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://imgur.com/svRhYuH.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Representative Phil Crane has established his reputation as a conservative firebrand, along with his brother, being dubbed 'the Kennedy's of the right'. Crane also sought the nomination this year, to the surprise of some who assumed his support for Reagan was locked up, but his campaign never broke through in any major way.</p><p>Having Crane as your running mate would pump some young blood onto the ticket, as well as placate the some of Reagans' diehard supporters, it was also help to pick a firebrand to help neuter some of the attacks concerning your commitment to the Republican cause.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 424,
+        "fields": {
+            "first_name": "Donald ",
+            "last_name": "Rumsfeld",
+            "election": 28,
+            "party": "Republican",
+            "state": "Illinois",
+            "priority": 30,
+            "description": "n/a",
+            "color_hex": "#b51a00",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://imgur.com/vh0Lmnj.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>The network of former President Ford shouldn't be ignored, and Rumsfeld could be the key to getting them on your side. The former Chief of Staff and Secretary of Defense is a shrewd political operator in his own right, playing a key role in Ford's near comeback in 1976, having him on the ticket would therefore also be beneficial from an operative perspective. </p><p>Rumsfeld's closeness with the neo-conservative ideologues could raise tensions on a foreign policy perspective, however the number of those who align with him in the party is increasing, so this may not be a fight you want to start in the first place.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 425,
+        "fields": {
+            "first_name": "Jack",
+            "last_name": "Kemp",
+            "election": 28,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 31,
+            "description": "n/a",
+            "color_hex": "#b51a00",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://imgur.com/KKjVmgM.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>If there's one thing Jack Kemp can bring to the ticket, it's more charisma, the young former NFL player from New York knows how to put on a show for the cameras, something Connally can appreciate. A darling of the Reagan right, any protest from the radical right would be snuffed out if Kemp was brought on board. </p><p>Some Republican's may question his selection, considering Connally's notable use of price controls during the Nixon administration in comparison to Kemp's devotion to supply-side economics, but Connally's never exactly been one to stick his foot in the ground, so maybe some happy marriage can be arranged?</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 426,
+        "fields": {
+            "first_name": "Howard",
+            "last_name": "Baker",
+            "election": 28,
+            "party": "Republican",
+            "state": "Tennessee",
+            "priority": 32,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/G4jFvB6.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Howard Baker is a Republican Senator from Tennessee. The son-in-law of Everett Dirksen, Baker endeared himself to the GOP Old Guard with his tough questioning of Nixon administration officials during the Watergate hearings. A proud moderate, Baker would boost Reagan's odds in New England, but could rock the boat with ultra-conservatives like Dan Crane and Jesse Helms.</p><p>Gerald Ford nearly selected Baker as his own running mate in 1976, until Baker revealed to the president that his wife, Joy, was a recovering alcoholic. Ford chose Bob Dole instead and lost.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 427,
+        "fields": {
+            "first_name": "Walter",
+            "last_name": "Mondale",
+            "election": 28,
+            "party": "Democrat",
+            "state": "Minnesota",
+            "priority": 33,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/WHviFae.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Walter Mondale is Vice President of the United States and a former Senator from Minnesota. A strong ally of liberal icon Hubert Humphrey, Mondale is a classical New Dealer, supporting expensive social welfare legislation, even when it clashes with Jimmy Carter's own beliefs.</p><p>Because of these disagreements, Mondale has had doubts about remaining on the ticket this year. But after the challenge from Kennedy, it would be unwise for the president to sever his closest tie to the liberal wing of the party before the election.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 428,
+        "fields": {
+            "first_name": "Jerry",
+            "last_name": "Brown",
+            "election": 28,
+            "party": "Democrat",
+            "state": "California",
+            "priority": 34,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/2mPlJhe.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Jerry Brown is the Governor of California and a two-time presidential candidate. While his long-shot bid this year came to an end with a disastrous television spot directed by Francis Ford Coppola, Brown still holds some sway over the party. His support for tax cuts, a defense build-up, and harsh immigration restrictions would represent a hard pivot to the right for Carter, if Brown is selected.</p><p>Of course, Brown's roots in California could open up the Golden State as a key battleground. It is currently thought to be non-competitive because of Reagan's popularity there, but perhaps Brown's oddball nature could win them over to the Democratic camp?</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 429,
+        "fields": {
+            "first_name": "Edmund",
+            "last_name": "Muskie",
+            "election": 28,
+            "party": "Democrat",
+            "state": "Maine",
+            "priority": 35,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/9sCSbzB.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Ed Muskie is Secretary of State and a former presidential candidate. In 1976, Muskie was strongly considered as Carter's running mate, so it is not entirely surprising that the president is ruminating on selecting him four years later. The Secretary has certainly received bipartisan plaudits for his handling of the Iranian hostage crisis and the Soviet invasion of Afghanistan</p><p>Of course, if Muskie were to be selected, he would be forced to resign and would face withering partisan criticism over whether his couple months at Foggy Bottom were just a stunt to raise his profile after his disastrous presidential bid in 1972.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 430,
+        "fields": {
+            "first_name": "Patrick",
+            "last_name": "Lucey",
+            "election": 28,
+            "party": "Democrat",
+            "state": "Wisconsin",
+            "priority": 37,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/dxSinUI.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Pat Lucey is the U.S. Ambassador to Mexico and a popular former Governor of Wisconsin. A registered Democrat, Lucey endorsed Ted Kennedy's bid against Jimmy Carter this year. A Catholic from a must-win state for the Carter campaign, Lucey's selection would strengthen Anderson's hold on disaffected liberal Democrats, but risk the \"spoiler\" issue becoming a major theme.</p><p>Then again, surveys indicate Lucey's star has fallen inside the state of Wisconsin due to his liberal policies, so there are some questions over just how much appeal he really has to Democrats.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 431,
+        "fields": {
+            "first_name": "Barbara",
+            "last_name": "Jordan",
+            "election": 28,
+            "party": "Democrat",
+            "state": "Texas",
+            "priority": 38,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/G4SiPPh.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Barbara Jordan is a former Democratic Congresswoman from Texas. Best known for her stirring keynote address at the 1976 DNC and her opening remarks during the Watergate impeachment hearings, Jordan is a liberal icon, even if her actual political beliefs are closer to the center.</p><p>Jordan was forced to step down from Congress in 1978 due to declining health, which could become an issue were she to be selected as Anderson's running mate. Additionally, she is a lesbian.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 432,
+        "fields": {
+            "first_name": "Walter",
+            "last_name": "Cronkite",
+            "election": 28,
+            "party": "Independent",
+            "state": "Missouri",
+            "priority": 39,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://thecampaigntrail.net/static/images/1980/BPsb08v.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Walter Cronkite is the most trusted man in America. He has served as lead anchorman for <em>CBS Evening News</em> since 1962, and has reported on events such as the Kennedy assassination, the Vietnam War, the Apollo 11 Moon mission, and most recently, the hostage crisis in Iran.</p><p>On paper, Cronkite seems like a golden ticket for the Anderson campaign. Even stranger, Cronkite is reportedly ecstatic about the possibility of being considered, and would agree to join the ticket in a heartbeat. But some of the iconic anchorman's own views hardly represent the middle Americans his broadcasts appeal to most.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 433,
+        "fields": {
+            "first_name": "Ed",
+            "last_name": "Clark/Others",
+            "election": 28,
+            "party": "Libertarian",
+            "state": "California",
+            "priority": 1,
+            "description": "Candidate description here.",
+            "color_hex": "#FFFF00",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "",
+            "electoral_victory_message": "Winner!",
+            "electoral_loss_message": "Loser!",
+            "no_electoral_majority_message": "Majority?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    }
+];
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198001,
+        "fields": {
+            "candidate": 422,
+            "running_mate": 430
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198002,
+        "fields": {
+            "candidate": 421,
+            "running_mate": 427
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198003,
+        "fields": {
+            "candidate": 422,
+            "running_mate": 431
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198004,
+        "fields": {
+            "candidate": 422,
+            "running_mate": 432
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198005,
+        "fields": {
+            "candidate": 421,
+            "running_mate": 428
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198006,
+        "fields": {
+            "candidate": 421,
+            "running_mate": 429
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198007,
+        "fields": {
+            "candidate": 420,
+            "running_mate": 423
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198008,
+        "fields": {
+            "candidate": 420,
+            "running_mate": 424
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198009,
+        "fields": {
+            "candidate": 420,
+            "running_mate": 425
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 198011,
+        "fields": {
+            "candidate": 433,
+            "running_mate": 434
+        }
+    }
+];
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 28,
+        "candidates": [
+            420,
+            421,
+            422,
+            433
+        ]
+    }
+];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 28,
+        "candidates": [
+            420,
+            421,
+            422,
+            433
+        ]
+    }
+];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#000000",
+    "header_text_color": "#ffffff",
+    "header_image_url": "https://imgur.com/4iBMyjT.png",
+    "description_background_color": "#ffffff",
+    "description_text_color": "#111827",
+    "main_color": "#d6d6d6",
+    "secondary_color": "#b51a00",
+    "ui_text_color": "#ffffff"
+};
+
+jet_data = {
+    "headerColor": "#991706",
+    "headerTextColor": "#ffffff",
+    "windowColor": "#c0c0c0",
+    "containerColor": "#ffffff",
+    "innerWindowColor": "#c0c0c0",
+    "innerWindowTextColor": "#000000",
+    "descriptionWindowColor": "#f8f8f8",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#e8e8e8",
+    "bannerImageUrl": "https://imgur.com/j4K2LfD.png",
+    "backgroundImageUrl": "https://imgur.com/RJsP7WZ.png",
+    "gameTitle": "CAMPAIGN TRAIL SHOWCASE",
+    "customQuote": "",
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#000000",
+    "modBoxTheme": {
+        "header_color": "#000000",
+        "header_text_color": "#ffffff",
+        "header_image_url": "https://imgur.com/4iBMyjT.png",
+        "header_text_shadow": "",
+        "header_font": "",
+        "header_margin": "",
+        "description_background_color": "#ffffff",
+        "description_text_color": "#111827",
+        "main_color": "#d6d6d6",
+        "secondary_color": "#b51a00",
+        "secondary_hover_color": "",
+        "scrollbar_color": "",
+        "scrollbar_width": "",
+        "image_border": "",
+        "election_image_display": "",
+        "ui_text_color": "#ffffff"
+    }
+};
+
+//#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
+
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
+
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
+
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
+
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
+
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #000000; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #c0c0c0 !important; color: #000000; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #f8f8f8 !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #e8e8e8 !important; }
+    `;
+    document.head.appendChild(style);
+}
+
+corrr = "\n              <h2>CAMPAIGN TRAIL SHOWCASE</h2>\n            ";
+
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
+
+// define / override theme values
+theme.coloring_title     = "#991706";
+theme.coloring_window    = "#c0c0c0";
+theme.coloring_container = "#ffffff";
+theme.header_image = "https://imgur.com/j4K2LfD.png";
+theme.body_background = "https://imgur.com/RJsP7WZ.png";
+
+applyTheme(theme);
+//#endcode
